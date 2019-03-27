@@ -11,7 +11,7 @@ Apk- https://github.com/leenabhandari/TourAR-apk
 
 Although many efforts are taken to improve tourism by bringing in innovative ideas, we aren’t there just yet. Our idea is to enhance the tourism by leveraging Augmented Reality. We have created a mobile application for the same. On recognising an image of a monument (say Taj mahal), it will augment a 3D model of the same. The model is touch interactive i.e one can scale and move to see the details of the monument. There are numerous information boards installed at and around monuments but hardly anyone reads them. Therefore, the application supports a voice enabled chatbot for a better user experience. This idea helps in conveying the right information to the tourists and acts like a guide for the visitors. This would help in promotion and would lead to enhancement in the tourism eventually.
 
-2. Introduction (Currently technology ; Innovation in your project ;)
+2. Introduction 
 
 Currently, very few tourism places use guides apart from humans. Most of the tourists have to rely on books, wikipedia and other hoardings. Some places also have audio guides. And very few have started working on AR based apps for tourism which also suggests the feasibility of our idea.
 
@@ -24,7 +24,7 @@ Since the most convenient and fulfilling experience is of a conversation rather 
 More features would be added eventually. Also, it can be supported by a database(such as firebase) for storing more information. 
 
 
-3. Technology Stack (Hardware / Software involved; Algorithms involved ; Domain involved(Computer Graphics/Computer Vision/Networks / etc))
+3. Technology Stack 
 
 Vuforia - AR Platform
 Unity, Visual studio (C#)- Development environment
@@ -33,8 +33,7 @@ Infinity engine (Speech Engine)- Text to speech
 Blender- 3D models
 LeanTouch asset- Touch interaction
 
-4. Working Methodology – Detailed Description - 
-
+4. Working Methodology –
 Working
 Image Targets have been set on Vuforia platform. Using which recognition is done and 3D model is augmented on the same. Timelapse is also augmented on recognition of a predefined image. LeanTouch is used to enable touch functionality.
 The record button is used for recording and sending the voice to wit ai system. The response is sent in JSON format which is parsed to get the output. Based on that the application speaks the response. 
